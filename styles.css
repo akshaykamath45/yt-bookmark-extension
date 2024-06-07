@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 10px;
+}
+
+#container {
+  max-width: 250px;
+}
+
+h1 {
+  font-size: 16px;
+}
+
+#bookmarkBtn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#bookmarksList {
+  list-style-type: none;
+  padding: 0;
+}
+
+#bookmarksList li {
+  margin: 5px 0;
+}
+
+#bookmarksList a {
+  text-decoration: none;
+  color: #1a73e8;
+}
+
+#bookmarksList a:hover {
+  text-decoration: underline;
+}
